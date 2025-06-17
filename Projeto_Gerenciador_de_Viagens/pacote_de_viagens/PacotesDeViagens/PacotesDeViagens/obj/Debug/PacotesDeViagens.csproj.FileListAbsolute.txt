@@ -1,0 +1,16 @@
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.csproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmCadastroCliente.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmCadastroPacote.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmCadastroReserva.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmExibirCliente.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmExibirPacote.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmPrincipal.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.csproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\bin\Debug\PacotesDeViagens.exe.config
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\bin\Debug\PacotesDeViagens.exe
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\bin\Debug\PacotesDeViagens.pdb
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.Properties.Resources.resources
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.exe
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.pdb
+C:\Users\mathe\Source\Repos\PacotesDeViagens\PacotesDeViagens\obj\Debug\PacotesDeViagens.frmExibirReserva.resources
