@@ -1,0 +1,8 @@
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\Projeto_Vendedores.exe.config
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\Projeto_Vendedores.exe
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\Projeto_Vendedores.pdb
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\Projeto_Vendedores.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\Projeto_Vendedores.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\Projeto_Vendedores.exe
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\Projeto_Vendedores.pdb
+C:\Users\mathe\source\repos\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\Projeto_Vendedores.exe.config
