@@ -1,0 +1,8 @@
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\bin\Debug\Projeto_MVC_Restaurante.exe.config
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\bin\Debug\Projeto_MVC_Restaurante.exe
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\bin\Debug\Projeto_MVC_Restaurante.pdb
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\obj\Debug\Projeto_MVC_Restaurante.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\obj\Debug\Projeto_MVC_Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\obj\Debug\Projeto_MVC_Restaurante.exe
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\obj\Debug\Projeto_MVC_Restaurante.pdb
+C:\Users\mathe\source\repos\Projeto_MVC_Restaurante\Projeto_MVC_Restaurante\obj\Debug\Projeto_MVC_Restaurante.exe.config
