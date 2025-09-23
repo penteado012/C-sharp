@@ -1,74 +1,31 @@
-# Projeto Agenda de Contatos - Windows Forms
+# 📱 Agenda de Contatos - Projeto Windows Forms
 
-![Banner](./imagens/banner.png)  
-*Interface principal do sistema*
-
-Este projeto é uma **Agenda de Contatos** desenvolvida em **C# com Windows Forms**, permitindo gerenciar contatos com dados pessoais e telefones de forma prática e visual.
+## 🔹 Descrição
+Um sistema de **agenda de contatos** desenvolvido em **C# com Windows Forms**, que permite **adicionar, alterar, remover e listar contatos**, incluindo informações de telefone e data de nascimento.  
 
 ---
 
-## Funcionalidades
-
-### Adicionar Contato
-- Cadastro de nome, email, data de nascimento e telefone principal.
-- Validação para não permitir emails duplicados.
-
-![Adicionar Contato](./imagens/adicionar_contato.png)
-
----
-
-### Alterar Contato
-- Atualização de informações do contato, inclusive definir um telefone como principal.
-- Permite adicionar novos telefones e alterar a data de nascimento.
-
-![Alterar Contato](./imagens/alterar_contato.png)
+## ⚙️ Funcionalidades
+- ➕ **Adicionar Contatos**  
+- ✏️ **Alterar Contatos**  
+- ❌ **Remover Contatos**  
+- 📋 **Listar Contatos**  
+- 🔍 **Pesquisar Contatos por Email**  
+- 📞 **Gerenciar Telefones, incluindo número principal**  
+- 🎂 **Calcular idade a partir da data de nascimento**  
 
 ---
 
-### Remover Contato
-- Remoção de contatos pelo email.
-- Confirmação de sucesso após exclusão.
-
-![Remover Contato](./imagens/remover_contato.png)
-
----
-
-### Pesquisar Contato
-- Localiza contatos pelo email.
-- Exibe todas as informações do contato, incluindo telefone principal.
-
-![Pesquisar Contato](./imagens/pesquisar_contato.png)
+## 🖥️ Tecnologias Utilizadas
+- 💻 **C#**
+- 🪟 **Windows Forms**
+- 📚 **.NET Framework**
+- 📝 **POO: Classes, Métodos, Propriedades**
+- 📊 **Listas e ListView para exibição de dados**
 
 ---
 
-### Listar Contatos
-- Mostra todos os contatos cadastrados em uma lista.
-- Exibe email, nome, data de nascimento, idade e telefone principal.
-
-![Listar Contatos](./imagens/listar_contatos.png)
-
----
-
-## Tecnologias
-
-- **Linguagem:** C#  
-- **Plataforma:** Windows Forms  
-- **IDE recomendada:** Visual Studio
-
----
-
-## Estrutura do Projeto
-
-- **Form1.cs**: Interface principal e lógica do usuário  
-- **Contato.cs**: Classe que representa um contato  
-- **Telefone.cs**: Classe que representa um telefone  
-- **Data.cs**: Classe auxiliar para manipulação de datas  
-- **Contatos.cs**: Classe que gerencia a lista de contatos  
-
----
-
-## Como Usar
-
-1. Clone o repositório:
-```bash
-git clone <URL_DO_REPOSITORIO>
+## 🚀 Como Usar
+1. Clone o repositório:  
+   ```bash
+   git clone <url-do-repo>
