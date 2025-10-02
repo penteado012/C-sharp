@@ -1,0 +1,7 @@
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\obj\Debug\Projeto_Listas_Biblioteca.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\obj\Debug\Projeto_Listas_Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\bin\Debug\Projeto_Listas_Biblioteca.exe.config
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\bin\Debug\Projeto_Listas_Biblioteca.exe
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\bin\Debug\Projeto_Listas_Biblioteca.pdb
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\obj\Debug\Projeto_Listas_Biblioteca.exe
+C:\Users\aluno\source\repos\Projeto_Listas_Biblioteca\Projeto_Listas_Biblioteca\obj\Debug\Projeto_Listas_Biblioteca.pdb
