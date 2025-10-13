@@ -5,3 +5,4 @@ C:\Users\mathe\source\repos\Projeto Listas Gerenciamento de Projetos\Projeto Lis
 C:\Users\mathe\source\repos\Projeto Listas Gerenciamento de Projetos\Projeto Listas Gerenciamento de Projetos\obj\Debug\Projeto Listas Gerenciamento de Projetos.csproj.CoreCompileInputs.cache
 C:\Users\mathe\source\repos\Projeto Listas Gerenciamento de Projetos\Projeto Listas Gerenciamento de Projetos\obj\Debug\Projeto Listas Gerenciamento de Projetos.exe
 C:\Users\mathe\source\repos\Projeto Listas Gerenciamento de Projetos\Projeto Listas Gerenciamento de Projetos\obj\Debug\Projeto Listas Gerenciamento de Projetos.pdb
+C:\Users\mathe\source\repos\Projeto Listas Gerenciamento de Projetos\Projeto Listas Gerenciamento de Projetos\obj\Debug\Projeto Listas Gerenciamento de Projetos.exe.config

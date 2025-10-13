@@ -1,30 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Projeto_Listas_Gerenciamento_de_Projetos
 {
     internal class Projeto
     {
+        private static int nextId = 1;
+
         private int id;
         private string nome;
         private List<Tarefa> tarefas = new List<Tarefa>();
 
-        public int Id { get => id; set => id = value; }
+        public int Id { get => id; private set => id = value; }
         public string Nome { get => nome; set => nome = value; }
         public List<Tarefa> Tarefas { get => tarefas; set => tarefas = value; }
 
-        public Projeto(string nome1) 
+        // construtor para criar novo projeto (gera id automaticamente)
+        public Projeto(string nome1)
         {
-            Nome = nome1;
-            Id++;
+            this.Id = nextId++;
+            this.Nome = nome1 ?? "";
+            this.tarefas = new List<Tarefa>();
         }
 
+        // construtor auxiliar para busca por id
         public Projeto(int idPesquisa)
         {
-            Id = idPesquisa;
+            this.Id = idPesquisa;
+            this.tarefas = new List<Tarefa>();
         }
 
         public void AdicionarTarefa(Tarefa t)
@@ -32,93 +36,93 @@ namespace Projeto_Listas_Gerenciamento_de_Projetos
             if (t != null)
             {
                 tarefas.Add(t);
-                Console.WriteLine("Tarefa Adicionada com sucesso!");
+                Console.WriteLine("Tarefa adicionada com sucesso!");
             }
             else
             {
-                Console.WriteLine("ERRO!!! Não foi possível adicionar uma tarefa");
+                Console.WriteLine("ERRO!!! Não foi possível adicionar a tarefa.");
             }
         }
 
-        public bool removerTarefa(Tarefa t)
+        public bool RemoverTarefa(Tarefa t)
         {
-            if (tarefas.Remove(t))
+            return tarefas.Remove(t);
+        }
+
+        // buscar tarefa por id
+        public Tarefa BuscarTarefaPorId(int idTarefa)
+        {
+            return tarefas.FirstOrDefault(t => t != null && t.Id == idTarefa);
+        }
+
+        public List<Tarefa> TarefasPorStatus(string s)
+        {
+            List<Tarefa> resultado = new List<Tarefa>();
+            if (string.IsNullOrEmpty(s)) return resultado;
+
+            foreach (Tarefa t in tarefas)
             {
-                return true;
+                if (t != null && !string.IsNullOrEmpty(t.Status) &&
+                    t.Status.Equals(s, StringComparison.OrdinalIgnoreCase))
+                {
+                    resultado.Add(t);
+                }
             }
-            else
+            return resultado;
+        }
+
+        public List<Tarefa> TarefasPorPrioridade(int p)
+        {
+            List<Tarefa> resultado = new List<Tarefa>();
+            foreach (Tarefa t in tarefas)
             {
+                if (t != null && t.Prioridade == p)
+                {
+                    resultado.Add(t);
+                }
+            }
+            return resultado;
+        }
+
+        public int TotalAbertas()
+        {
+            int quant = 0;
+            foreach (Tarefa t in tarefas)
+            {
+                if (t != null && !string.IsNullOrEmpty(t.Status) &&
+                    t.Status.Equals("Aberta", StringComparison.OrdinalIgnoreCase))
+                {
+                    quant++;
+                }
+            }
+            return quant;
+        }
+
+        public int TotalFechadas()
+        {
+            int quant = 0;
+            foreach (Tarefa t in tarefas)
+            {
+                if (t != null && !string.IsNullOrEmpty(t.Status) &&
+                    t.Status.Equals("Fechada", StringComparison.OrdinalIgnoreCase))
+                {
+                    quant++;
+                }
+            }
+            return quant;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
                 return false;
-            }
-        }
-
-        public Tarefa buscarTarefa(Tarefa t)
-        {
-            if (tarefas.Contains(t))
-            {
-                return t;
-            }
-            else
-            {
-                return null;
-            }
-        }
-
-        public List<Tarefa> tarefasPorStatus(string s)
-        {
-            List<Tarefa> resultado = new List<Tarefa>();
-            foreach (Tarefa t in tarefas)
-            {
-                if (t.Status == s)
-                {
-                    resultado.Add(t);
-                }
-            }
-            return resultado;
-        }
-
-        public List<Tarefa> tarefasPorPrioridade(int p)
-        {
-            List<Tarefa> resultado = new List<Tarefa>();
-            foreach (Tarefa t in tarefas)
-            {
-                if (t.Id == p)
-                {
-                    resultado.Add(t);
-                }
-            }
-            return resultado;
-        }
-
-        public int totalAbertas()
-        {
-            int quant = 0;
-            foreach (Tarefa t in tarefas)
-            {
-                if (t.Status == "Aberta")
-                {
-                    quant++;
-                }
-            }
-            return quant;
-        }
-
-        public int totalFechadas()
-        {
-            int quant = 0;
-            foreach (Tarefa t in tarefas)
-            {
-                if (t.Status == "Fechada")
-                {
-                    quant++;
-                }
-            }
-            return quant;
+            Projeto outro = (Projeto)obj;
+            return this.Id == outro.Id;
         }
 
         public override int GetHashCode()
         {
-            return id.GetHashCode();
+            return Id.GetHashCode();
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Projeto_Listas_Gerenciamento_de_Projetos
 {
@@ -13,47 +9,57 @@ namespace Projeto_Listas_Gerenciamento_de_Projetos
         private string descricao;
         private int prioridade;
         private string status;
-        private DateTime datacriacao;
+        private DateTime dataCriacao;
         private DateTime dataConclusao;
-        private static int n = 1;
+        private static int contador = 1;
 
-        public int Id { get => id; set => id = value; }
-        public string Titulo { get => Titulo; set => Titulo = value; }
-        public string Descricao { get => descricao; set => descricao = value ; }
+        public int Id { get => id; private set => id = value; }
+        public string Titulo { get => titulo; set => titulo = value; }
+        public string Descricao { get => descricao; set => descricao = value; }
         public int Prioridade { get => prioridade; set => prioridade = value; }
         public string Status { get => status; set => status = value; }
-        public DateTime DataCriacao {get => datacriacao; set => datacriacao = value; }
+        public DateTime DataCriacao { get => dataCriacao; set => dataCriacao = value; }
         public DateTime DataConclusao { get => dataConclusao; set => dataConclusao = value; }
 
-        public Tarefa(string Tituloo, string Descricaoo, int Prioridadee)
+        public Tarefa(string titulo, string descricao, int prioridade)
         {
-            this.id = n++;
-            this.Titulo = Tituloo;
-            this.Descricao = Descricaoo;
-            this.Prioridade = Prioridadee;
+            this.Id = contador++;
+            this.Titulo = titulo ?? "";
+            this.Descricao = descricao ?? "";
+            this.Prioridade = prioridade;
             this.Status = "Aberta";
             this.DataCriacao = DateTime.Now;
+            this.DataConclusao = DateTime.MinValue; // sem conclusão ainda
         }
 
-        public void concluir()
+        public void Concluir()
         {
+            if (!string.IsNullOrEmpty(Status) && Status.Equals("Fechada", StringComparison.OrdinalIgnoreCase))
+                return; // já fechada
+
+            if (!string.IsNullOrEmpty(Status) && Status.Equals("Cancelada", StringComparison.OrdinalIgnoreCase))
+                return; // não concluímos canceladas
+
             Status = "Fechada";
             DataConclusao = DateTime.Now;
         }
 
-        public void cancelar()
+        public void Cancelar()
         {
+            if (!string.IsNullOrEmpty(Status) && Status.Equals("Fechada", StringComparison.OrdinalIgnoreCase))
+                return; // não cancelar já fechada
+
             Status = "Cancelada";
             DataConclusao = DateTime.Now;
         }
 
-        public void reabrir()
+        public void Reabrir()
         {
-            if (Status != "Aberta")
-            {
-                Status = "Aberta";
-                DataConclusao = DateTime.MinValue;
-            }
+            if (Status == null || Status.Equals("Aberta", StringComparison.OrdinalIgnoreCase))
+                return;
+
+            Status = "Aberta";
+            DataConclusao = DateTime.MinValue;
         }
     }
 }
