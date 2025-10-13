@@ -15,6 +15,7 @@ namespace Projeto_Listas_Gerenciamento_de_Projetos
         private string status;
         private DateTime datacriacao;
         private DateTime dataConclusao;
+        private static int n = 1;
 
         public int Id { get => id; set => id = value; }
         public string Titulo { get => Titulo; set => Titulo = value; }
@@ -23,6 +24,16 @@ namespace Projeto_Listas_Gerenciamento_de_Projetos
         public string Status { get => status; set => status = value; }
         public DateTime DataCriacao {get => datacriacao; set => datacriacao = value; }
         public DateTime DataConclusao { get => dataConclusao; set => dataConclusao = value; }
+
+        public Tarefa(string Tituloo, string Descricaoo, int Prioridadee)
+        {
+            this.id = n++;
+            this.Titulo = Tituloo;
+            this.Descricao = Descricaoo;
+            this.Prioridade = Prioridadee;
+            this.Status = "Aberta";
+            this.DataCriacao = DateTime.Now;
+        }
 
         public void concluir()
         {
