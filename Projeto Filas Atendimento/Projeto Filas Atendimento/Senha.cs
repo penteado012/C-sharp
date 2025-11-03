@@ -17,7 +17,6 @@ namespace Projeto_Filas_Atendimento
         {
             this.Id = id;
             this.dataGerac = DateTime.Now;
-            this.DataAtend = DateTime.Now;
         }
 
         
@@ -32,7 +31,7 @@ namespace Projeto_Filas_Atendimento
 
         public string dadosCompletos()
         {
-            return Id + "-" + DataGerac + "-" + DataAtend;
+            return Id + "-" + DataGerac + "----" + DataAtend;
         }
 }
 }

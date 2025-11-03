@@ -1,0 +1,10 @@
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\bin\Debug\Projeto Filas Atendimento.exe.config
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\bin\Debug\Projeto Filas Atendimento.exe
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\bin\Debug\Projeto Filas Atendimento.pdb
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto Filas Atendimento.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto_Filas_Atendimento.Form1.resources
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto Filas Atendimento.csproj.GenerateResource.cache
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto Filas Atendimento.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto Filas Atendimento.exe
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto Filas Atendimento.pdb
+C:\Users\mathe\source\repos\Projeto Filas Atendimento\Projeto Filas Atendimento\obj\Debug\Projeto Filas Atendimento.exe.config

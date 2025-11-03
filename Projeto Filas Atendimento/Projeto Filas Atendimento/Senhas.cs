@@ -11,9 +11,19 @@ namespace Projeto_Filas_Atendimento
         private int proximoAtendimento;
         private Queue<Senha> filaSenhas;
 
+        public int ProximoAtendimento { get => proximoAtendimento; set => proximoAtendimento = value; }
+        internal Queue<Senha> FilaSenhas { get => filaSenhas; set => filaSenhas = value; }
+
+        public Senhas()
+        {
+            ProximoAtendimento = 1;
+            FilaSenhas = new Queue<Senha>();
+        }
+
         public void gerar()
         {
-
+            Senha nova = new Senha(ProximoAtendimento++);
+            FilaSenhas.Enqueue(nova);
         }
     }
 }
