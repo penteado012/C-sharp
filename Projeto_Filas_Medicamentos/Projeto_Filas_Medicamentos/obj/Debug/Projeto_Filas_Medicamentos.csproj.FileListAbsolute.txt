@@ -1,0 +1,8 @@
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\bin\Debug\Projeto_Filas_Medicamentos.exe.config
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\bin\Debug\Projeto_Filas_Medicamentos.exe
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\bin\Debug\Projeto_Filas_Medicamentos.pdb
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\obj\Debug\Projeto_Filas_Medicamentos.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\obj\Debug\Projeto_Filas_Medicamentos.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\obj\Debug\Projeto_Filas_Medicamentos.exe
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\obj\Debug\Projeto_Filas_Medicamentos.pdb
+C:\Users\mathe\source\repos\Projeto_Filas_Medicamentos\Projeto_Filas_Medicamentos\obj\Debug\Projeto_Filas_Medicamentos.exe.config
