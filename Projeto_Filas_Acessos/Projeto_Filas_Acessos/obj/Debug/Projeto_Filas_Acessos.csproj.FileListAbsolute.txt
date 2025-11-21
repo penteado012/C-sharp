@@ -1,0 +1,17 @@
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\Projeto_Filas_Acessos.exe.config
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\Projeto_Filas_Acessos.exe
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\Projeto_Filas_Acessos.pdb
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\obj\Debug\Projeto_Filas_Acessos.csproj.AssemblyReference.cache
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\obj\Debug\Projeto_Filas_Acessos.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\obj\Debug\Projeto_.7340EFD9.Up2Date
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\obj\Debug\Projeto_Filas_Acessos.exe
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\obj\Debug\Projeto_Filas_Acessos.pdb
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\obj\Debug\Projeto_Filas_Acessos.exe.config
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\x86\e_sqlite3.dll
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\x64\e_sqlite3.dll
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\mathe\source\repos\Projeto_Filas_Acessos\Projeto_Filas_Acessos\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
